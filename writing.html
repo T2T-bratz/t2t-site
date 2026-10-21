@@ -1,0 +1,49 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Writing. Tips2Triumph</title>
+<meta name="description" content="Articles on leadership and management, career growth, and habits. Every piece labelled for how it was made.">
+<link rel="canonical" href="https://tips2triumph.com/writing.html">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="Tips2Triumph">
+<meta property="og:title" content="Writing. Tips2Triumph">
+<meta property="og:description" content="Articles on leadership and management, career growth, and habits. Every piece labelled for how it was made.">
+<meta property="og:url" content="https://tips2triumph.com/writing.html">
+<meta property="og:image" content="https://tips2triumph.com/assets/brad.jpg">
+<meta name="twitter:card" content="summary">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,500&family=Inter:wght@400;500;600&display=swap">
+<link rel="stylesheet" href="assets/styles.css">
+<link rel="icon" href="assets/logo-mark.png">
+</head>
+<body>
+<header class="site">
+  <a class="wordmark" href="index.html" aria-label="Tips2Triumph home">
+    <img src="assets/logo-wordmark.png" alt="Tips2Triumph" width="150" height="40">
+  </a>
+  <nav aria-label="Main"><a href="writing.html" aria-current="page">Writing</a><a href="newsletter.html">Newsletter</a><a href="about.html">About</a></nav>
+</header>
+<main>
+<section class="page-head"><h1>Writing</h1><p class="lede">Leadership, careers, and habits. Start with the newest, or pick a pillar.</p><div class="chips" role="group" aria-label="Filter by pillar"><button class="chip on" data-filter="all" type="button">All</button><button class="chip" data-filter="leadership" type="button">Leadership and management</button><button class="chip" data-filter="career" type="button">Career and professional growth</button><button class="chip" data-filter="habits" type="button">Personal growth and habits</button></div></section><div class="archive"><article class="post-card" data-pillar="habits"><p class="meta">Personal growth and habits &middot; December 2026</p><h3><a href="writing/dont-start-with-the-habit.html">Don't start with the habit</a></h3><p>Resolution season fails before it starts, and it's not a willpower problem. It's a sequencing problem. Map the week you actually have before you add anything to it.</p><a class="ai-badge ai-drafted-reviewed" href="ai.html" title="AI produced the draft from my outline or notes. I reviewed and edited the whole piece and stand behind the argument. The point of view is mine; some of the words are not.">Drafted by AI, reviewed by Brad</a></article></div><p class="empty" id="empty-filter" hidden>Nothing in this pillar yet. The rotation means it won't stay empty long.</p>
+</main>
+<footer class="site">
+  <p class="foot-line">Tips2Triumph is Brad Ratz writing as himself.</p>
+  <p class="foot-ai">Every article on this site is labelled for AI involvement. <a href="ai.html">How AI is used here</a></p>
+  <p class="foot-meta">&copy; 2026 Brad Ratz &middot; tips2triumph.com &middot; <a href="https://www.linkedin.com/in/bradratz/" rel="me noopener">LinkedIn</a></p>
+</footer>
+<script>
+(function(){
+  var chips=document.querySelectorAll('.chip'),cards=document.querySelectorAll('.post-card'),empty=document.getElementById('empty-filter');
+  chips.forEach(function(c){c.addEventListener('click',function(){
+    chips.forEach(function(k){k.classList.toggle('on',k===c)});
+    var f=c.getAttribute('data-filter'),n=0;
+    cards.forEach(function(p){var show=(f==='all'||p.getAttribute('data-pillar')===f);p.hidden=!show;if(show)n++});
+    empty.hidden=n>0;
+  })});
+})();
+</script>
+</body>
+</html>

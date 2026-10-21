@@ -1,0 +1,40 @@
+{
+  "built_utc": "2026-10-21T13:35:35.331856+00:00",
+  "built_et": "2026-10-21 09:35 EDT",
+  "approved": false,
+  "public": false,
+  "deployed": false,
+  "pages": [
+    "404.html",
+    "about.html",
+    "ai.html",
+    "assets/brad.jpg",
+    "index.html",
+    "newsletter.html",
+    "writing.html",
+    "writing/dont-start-with-the-habit.html"
+  ],
+  "posts": 1,
+  "newsletter_provider": "beehiiv",
+  "unreviewed_blocks": [
+    "about closing",
+    "about para 3",
+    "about para 4",
+    "about para 5",
+    "about role line",
+    "ai closing",
+    "ai intro",
+    "ai why",
+    "article subscribe line",
+    "hero secondary link",
+    "hero subhead",
+    "home about card",
+    "newsletter pitch",
+    "newsletter privacy line",
+    "newsletter whats in it",
+    "pillars tagline",
+    "writing empty filter",
+    "writing intro"
+  ],
+  "warnings": []
+}
