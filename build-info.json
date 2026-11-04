@@ -1,7 +1,7 @@
 {
-  "built_utc": "2026-10-21T13:35:35.331856+00:00",
-  "built_et": "2026-10-21 09:35 EDT",
-  "approved": false,
+  "built_utc": "2026-11-04T01:03:26.234855+00:00",
+  "built_et": "2026-11-03 20:03 EST",
+  "approved": true,
   "public": false,
   "deployed": false,
   "pages": [
@@ -36,5 +36,7 @@
     "writing empty filter",
     "writing intro"
   ],
-  "warnings": []
+  "warnings": [
+    "stale file left behind (mount blocks delete): site/.DS_Store"
+  ]
 }
